@@ -95,6 +95,14 @@ If you ever want to go to stock just download the updater from https://spcgear.c
 
 after qmk is installed u can just SPC_button + esc to reset into DFU and flash new firmware
 
+The most up to date branch is actually here:
+
+please do this after instal QMK MSYS2 or QMK WSL:
+git clone https://github.com/HorrorTroll/qmk_firmware.git -b sn32_master_240_orgb
+
+and then do this to compile a firmware:
+qmk compile -kb spcgear/gk530 -km default
+
 
 
 
