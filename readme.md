@@ -103,6 +103,7 @@ git clone https://github.com/HorrorTroll/qmk_firmware.git -b sn32_master_240_org
 and then do this to compile a firmware:
 qmk compile -kb spcgear/gk530 -km default
 
+This branch is also now saved in my own repo (this one)
 
 
 
